@@ -71,10 +71,10 @@ return {
 		end
 
 		-- configure java server
-		lspconfig["jdtls"].setup({
-			capabilities = capabilities,
-			on_attach = on_attach,
-		})
+		-- lspconfig["jdtls"].setup({
+		-- 	capabilities = capabilities,
+		-- 	on_attach = on_attach,
+		-- })
 
 		-- configure html server
 		lspconfig["html"].setup({
