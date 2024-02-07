@@ -26,7 +26,11 @@
   "nvim-jdtls": { "branch": "master", "commit": "4f4de4d80e1df43d58e5e21677fca4c63676664d" },
   "nvim-lint": { "branch": "master", "commit": "985ce08212551f6c5d661ce00d7e1e38aa22f51e" },
   "nvim-lsp-file-operations": { "branch": "master", "commit": "223aca86b737dc66e9c51ebcda8788a8d9cc6cf2" },
+<<<<<<< HEAD
   "nvim-lspconfig": { "branch": "master", "commit": "0a1a2aa549da0d2294e072e2d725f02cca32f64e" },
+=======
+  "nvim-lspconfig": { "branch": "master", "commit": "1bc83418927003552505ec66fa5d6cffae953f6a" },
+>>>>>>> 21dfc441cfdeb756f892e8e2be11b3525a9b87c9
   "nvim-notify": { "branch": "master", "commit": "80b67b265530632505193553d05127ae7fe09ddd" },
   "nvim-surround": { "branch": "main", "commit": "703ec63aa798e5e07d309b35e42def34bebe0174" },
   "nvim-tree.lua": { "branch": "master", "commit": "8cbb1db8e90b62fc56f379992e622e9f919792ce" },
