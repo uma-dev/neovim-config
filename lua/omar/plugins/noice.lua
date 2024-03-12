@@ -15,6 +15,30 @@ return -- lazy.nvim
 	},
 	config = function()
 		require("noice").setup({
+			-- clean cmdline_popup
+			views = {
+				cmdline_popup = {
+					border = {
+						style = "none",
+						padding = { 2, 3 },
+					},
+					filter_options = {},
+					win_options = {
+						winhighlight = "NormalFloat:NormalFloat,FloatBorder:FloatBorder",
+					},
+				},
+			},
+			-- hide written messages
+			routes = {
+				{
+					filter = {
+						event = "msg_show",
+						kind = "",
+						find = "written",
+					},
+					opts = { skip = true },
+				},
+			},
 			lsp = {
 				-- override markdown rendering so that **cmp** and other plugins use **Treesitter**
 				override = {
