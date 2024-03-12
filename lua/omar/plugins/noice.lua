@@ -18,13 +18,40 @@ return -- lazy.nvim
 			-- clean cmdline_popup
 			views = {
 				cmdline_popup = {
+					position = {
+						row = 10,
+					},
 					border = {
 						style = "none",
 						padding = { 2, 3 },
 					},
+					size = {
+						min_width = 40,
+						width = "auto",
+						height = "auto",
+					},
 					filter_options = {},
 					win_options = {
 						winhighlight = "NormalFloat:NormalFloat,FloatBorder:FloatBorder",
+					},
+				},
+				-- clean cmdline_popupmenu
+				cmdline_popupmenu = {
+					relative = "editor",
+					position = {
+						row = 13,
+						col = "50%",
+					},
+					size = {
+						width = 40,
+						height = "auto",
+						max_height = 15,
+					},
+					border = {
+						padding = { 0, 3 },
+					},
+					win_options = {
+						winhighlight = { NormalFloat = "NormalFloat", FloatBorder = "NoiceCmdlinePopupBorder" },
 					},
 				},
 			},
