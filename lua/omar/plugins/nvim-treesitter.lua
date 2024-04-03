@@ -25,6 +25,11 @@ return {
 				-- ensure these language parsers are installed
 				ensure_installed = {
 					"java",
+					"properties", -- java properties
+					"xml",
+					"python",
+					"csv",
+					"sql",
 					"json",
 					"javascript",
 					"typescript",

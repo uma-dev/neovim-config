@@ -4,8 +4,6 @@ return {
 
 	"christoomey/vim-tmux-navigator", -- tmux & split window navigation
 
-	"inkarkat/vim-ReplaceWithRegister", -- replace with register contents using motion (gr + motion)
-
 	"mfussenegger/nvim-jdtls", -- all the features jdtls has to offer
 
 	"tpope/vim-fugitive", -- awesome git wrapper
