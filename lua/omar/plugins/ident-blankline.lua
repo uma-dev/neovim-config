@@ -3,6 +3,12 @@ return {
 	event = { "BufReadPre", "BufNewFile" },
 	main = "ibl",
 	opts = {
-		indent = { char = "┊" },
+		indent = {
+			char = "▏",
+			-- char = "┊",
+		},
+		scope = {
+			show_start = false,
+		},
 	},
 }
