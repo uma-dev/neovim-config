@@ -27,7 +27,7 @@ return {
 		mason_lspconfig.setup({
 			-- list of servers for mason to install
 			ensure_installed = {
-				--       "jdtls",
+				"jdtls", -- java language server
 				"tsserver",
 				"html",
 				"cssls",
@@ -46,6 +46,7 @@ return {
 		mason_tool_installer.setup({
 			ensure_installed = {
 				"google-java-format", -- java formatter
+				"checkstyle", -- java linter
 				"prettier", -- prettier formatter
 				"stylua", -- lua formatter
 				"isort", -- python formatter
